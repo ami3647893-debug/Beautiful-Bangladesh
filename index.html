@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="bn">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f1">
+  <meta name="description" content="নদী, বন, পাহাড়, সমুদ্র আর মানুষের গল্পে বাংলাদেশকে আবিষ্কার করুন।">
+  <title>সৌন্দর্যের বাংলাদেশ — Beautiful Bangladesh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">মূল কনটেন্টে যান</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="সৌন্দর্যের বাংলাদেশ" data-i18n-aria="brandBn">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 42 42" fill="none">
+            <path d="M5 29c7-8 12-8 19 0s12 8 19 0M5 20c7-8 12-8 19 0s12 8 19 0M5 11c7-8 12-8 19 0s12 8 19 0"
+              stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            <circle cx="21" cy="21" r="19.5" stroke="currentColor" />
+          </svg>
+        </span>
+        <span class="brand-copy"><strong data-i18n="brandBn">সৌন্দর্যের বাংলাদেশ</strong><small>BEAUTIFUL
+            BANGLADESH</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"
+        data-i18n-aria="menuOpen" aria-label="মেনু খুলুন">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="প্রধান নেভিগেশন" data-i18n-aria="navLabel">
+        <a href="#discover" data-i18n="navDiscover">আবিষ্কার</a>
+        <a href="#nature" data-i18n="navNature">প্রকৃতি</a>
+        <a href="#heritage" data-i18n="navHeritage">ঐতিহ্য</a>
+        <a href="#taste" data-i18n="navTaste">স্বাদ</a>
+        <a href="#plan" data-i18n="navPlan">ভ্রমণ পরিকল্পনা</a>
+        <div class="language-switch" role="group" aria-label="ভাষা নির্বাচন" data-i18n-aria="languageLabel">
+          <button type="button" class="language-button is-active" data-lang="bn" aria-pressed="true">বাং</button>
+          <span aria-hidden="true"></span>
+          <button type="button" class="language-button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade"></div>
+      <a class="hero-photo-link" href="#home" aria-label="হিরো বিভাগে যান" data-i18n-aria="heroPhotoLink"></a>
+      <div class="hero-content wrap">
+        <p class="eyebrow light" data-i18n="heroEyebrow">দক্ষিণ এশিয়ার সবুজ হৃদয়ে</p>
+        <h1 id="hero-title"><span data-i18n="heroTitle">বাংলাদেশ—</span><br><em data-i18n="heroTitleEm">প্রকৃতির লেখা এক
+            কবিতা</em></h1>
+        <p class="hero-description" data-i18n="heroText">ছয় ঋতুর রং, অসংখ্য নদীর সুর, প্রাচীন ইতিহাস আর অতিথিপরায়ণ
+          মানুষের গল্পে—আবিষ্কার করুন এক অনন্য দেশ।</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#discover"><span data-i18n="heroCta">বাংলাদেশ ঘুরে দেখুন</span><span
+              aria-hidden="true">↗</span></a>
+          <a class="text-link light-link" href="#story"><span data-i18n="heroMore">দেশের গল্প</span><span
+              aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span data-i18n="heroNote">নদীমাতৃক • প্রাণবন্ত •
+            চিরসবুজ</span></div>
+      </div>
+      <div class="hero-count"><span data-i18n="heroLocation">বাংলাদেশ • দক্ষিণ এশিয়া</span></div>
+      <a class="scroll-cue" href="#story" aria-label="নিচে স্ক্রল করুন" data-i18n-aria="scrollDown"><span></span></a>
+    </section>
+
+    <section class="intro-section section-pad" id="story">
+      <div class="wrap intro-grid">
+        <div class="intro-copy reveal">
+          <p class="eyebrow" data-i18n="introEyebrow">একটি দেশের পরিচয়</p>
+          <h2 data-i18n="introTitle">মানচিত্রের চেয়েও বড়<br><em>এক অনুভবের নাম</em></h2>
+          <p class="lead" data-i18n="introText">বাংলাদেশকে বুঝতে হলে তার নদীর কাছে যেতে হয়। এই বদ্বীপে জল ও মাটি মিলে
+            গড়েছে উর্বর সমতল, জীবন্ত জনপদ আর অসাধারণ এক বৈচিত্র্য।</p>
+          <p data-i18n="introText2">বঙ্গোপসাগরের উপকূল থেকে উত্তরের চা-বাগান, ম্যানগ্রোভের অরণ্য থেকে পাহাড়ি পল্লি—অল্প
+            দূরত্বেই বদলে যায় দৃশ্য, ভাষার টান আর খাবারের স্বাদ। আর যেখানেই যাবেন, মানুষের আন্তরিক অভ্যর্থনা আপনাকে আপন
+            করে নেবে।</p>
+          <a class="text-link" href="#discover"><span data-i18n="introLink">দেশের বৈচিত্র্য দেখুন</span><span
+              aria-hidden="true">↗</span></a>
+        </div>
+        <div class="intro-visual reveal">
+          <a class="photo-link" href="#home"><img src="images/river-country.jpg" alt="নদী ও সবুজে ঘেরা বাংলাদেশের গ্রাম"
+              data-i18n-alt="altRiver" loading="lazy"></a>
+          <div class="image-caption"><span class="caption-dot"></span><span data-i18n="introCaption">জলের সঙ্গে গড়ে ওঠা
+              জীবন</span></div>
+          <div class="round-stamp"><span data-i18n="stampText">সুন্দর<br>বাংলাদেশ</span><b>✳</b></div>
+        </div>
+      </div>
+      <div class="wrap stat-row reveal">
+        <div><strong>৬৪</strong><span data-i18n="statDistricts">জেলা, অসংখ্য গল্প</span></div>
+        <div><strong>৬</strong><span data-i18n="statSeasons">ঋতুতে বদলে যায় রূপ</span></div>
+        <div><strong>১</strong><span data-i18n="statDelta">বিশাল জীবন্ত বদ্বীপ</span></div>
+        <div class="stat-aside" data-i18n="statAside">ছোট্ট দেশ।<br>অসীম আবিষ্কার।</div>
+      </div>
+    </section>
+
+    <section class="destination-section section-pad" id="discover">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="destEyebrow">আপনার পরের গল্প</p>
+            <h2 data-i18n="destTitle">যেখানে মন যেতে চায়</h2>
+          </div>
+          <p data-i18n="destIntro">প্রকৃতির বিস্ময় থেকে ইতিহাসের অলিগলি—ভ্রমণ শুরু হোক আপনার পছন্দের কোনো ঠিকানা দিয়ে।
+          </p>
+        </div>
+        <div class="destination-grid">
+          <a class="destination-card destination-large reveal" href="#home">
+            <img src="images/images (1).jpg" alt="সুন্দরবনের ম্যানগ্রোভ অরণ্য" data-i18n-alt="altSundarbans"
+              loading="lazy">
+            <span class="card-index">01</span><span class="destination-info"><small data-i18n="destForestTag">বিশ্ব
+                ঐতিহ্য • ম্যানগ্রোভ</small><strong data-i18n="destForest">সুন্দরবন</strong><span
+                data-i18n="destForestText">বাঘের বনের নীরব মহিমা</span></span><span class="card-arrow">↗</span>
+          </a>
+          <a class="destination-card reveal" href="#home">
+            <img src="images/IMG_20260919_082649.jpg" alt="বঙ্গোপসাগরের বিস্তৃত বালুকাবেলা" data-i18n-alt="altCoast"
+              loading="lazy">
+            <span class="card-index">02</span><span class="destination-info"><small data-i18n="destCoastTag">বঙ্গোপসাগর
+                • সমুদ্র</small><strong data-i18n="destCoast">কক্সবাজার</strong><span data-i18n="destCoastText">ঢেউয়ের
+                পাশে দীর্ঘ অবকাশ</span></span><span class="card-arrow">↗</span>
+          </a>
+          <a class="destination-card reveal" href="#home">
+            <img src="images/images.jpg" alt="সবুজ পাহাড় আর মেঘে ঢাকা উপত্যকা" data-i18n-alt="altHighlands"
+              loading="lazy">
+            <span class="card-index">03</span><span class="destination-info"><small data-i18n="destHillTag">চট্টগ্রাম
+                পার্বত্য অঞ্চল • পাহাড়</small><strong data-i18n="destHill">সাজেক</strong><span
+                data-i18n="destHillText">মেঘের দেশে ভোরের আলো</span></span><span class="card-arrow">↗</span>
+          </a>
+          <a class="destination-card reveal" href="#home">
+            <img src="images/images (2).jpg" alt="সবুজ চা-বাগানের সারি" data-i18n-alt="altTea" loading="lazy">
+            <span class="card-index">04</span><span class="destination-info"><small data-i18n="destTeaTag">সিলেট •
+                চা-বাগান</small><strong data-i18n="destTea">শ্রীমঙ্গল</strong><span data-i18n="destTeaText">চায়ের কাপে
+                সবুজের সুবাস</span></span><span class="card-arrow">↗</span>
+          </a>
+          <a class="destination-card reveal" href="#home">
+            <img src="images/images (3).jpg" alt="বাংলাদেশের প্রাচীন স্থাপত্য" data-i18n-alt="altHeritage"
+              loading="lazy">
+            <span class="card-index">05</span><span class="destination-info"><small
+                data-i18n="destHistoryTag">প্রত্নতত্ত্ব • ইতিহাস</small><strong
+                data-i18n="destHistory">পাহাড়পুর</strong><span data-i18n="destHistoryText">ইটের গায়ে লেখা হাজার
+                বছর</span></span><span class="card-arrow">↗</span>
+          </a>
+        </div>
+        <div class="destination-foot"><span data-i18n="destFoot">আরও অনেক ঠিকানা অপেক্ষায় আছে</span><a href="#plan"
+            aria-label="ভ্রমণ পরিকল্পনা" data-i18n-aria="seeTripPlan">↓</a></div>
+      </div>
+    </section>
+
+    <section class="feature-section section-pad" id="nature">
+      <div class="wrap feature-grid" id="sundarbans">
+        <div class="feature-photo reveal"><a class="photo-link" href="#home"><img src="images/images (4).jpg"
+              alt="সুন্দরবনের গরান ও গোলপাতার ম্যানগ্রোভ বন" data-i18n-alt="altSundarbans" loading="lazy"></a><span
+            class="photo-label" data-i18n="sundarPhotoLabel">বন ও বন্যপ্রাণী</span></div>
+        <div class="feature-copy reveal">
+          <p class="eyebrow" data-i18n="sundarEyebrow">প্রকৃতির মহাকাব্য • ০১</p>
+          <h2 data-i18n="sundarTitle">সুন্দরবন<br><em>জোয়ারের শ্বাসে বেঁচে থাকা বন</em></h2>
+          <p data-i18n="sundarText">বিশ্বের বৃহত্তম ম্যানগ্রোভ অরণ্য সুন্দরবন বাংলাদেশ ও ভারতের বিস্তৃত বদ্বীপ জুড়ে
+            ছড়িয়ে আছে। জোয়ার-ভাটার নদী, শ্বাসমূলের বন আর কাদামাটির খাঁড়ি মিলে এখানে তৈরি করেছে বিরল এক বাস্তুতন্ত্র।
+          </p>
+          <p data-i18n="sundarText2">এটি রয়েল বেঙ্গল টাইগার, চিত্রা হরিণ, কুমির, অসংখ্য পাখি ও জলজ প্রাণীর আবাস।
+            স্থানীয় বনজীবীদের মৌচাক সংগ্রহের ঐতিহ্যও এই বনের সঙ্গে গভীরভাবে জড়িত। নৌভ্রমণে বন দেখুন—নির্দেশক ও
+            সংরক্ষণবিধি মেনে, বন্যপ্রাণীর প্রতি দূরত্ব রেখে।</p>
+          <div class="feature-facts"><span><b>UNESCO</b><small data-i18n="sundarFact1">বিশ্ব
+                ঐতিহ্য</small></span><span><b>৬,০০০+</b><small data-i18n="sundarFact2">বর্গকিমি বাংলাদেশ
+                অংশ</small></span></div>
+          <a class="text-link" href="#responsible"><span data-i18n="responsibleLink">দায়িত্বশীলভাবে ভ্রমণ
+              করুন</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="coast-section section-pad" id="coast">
+      <div class="wrap coast-panel reveal">
+        <a class="coast-photo-link" href="#home" aria-label="কক্সবাজারের ছবি থেকে হিরো বিভাগে যান"
+          data-i18n-aria="coastPhotoLink"><img src="images/images (5).jpg" alt=" বাংলাদেশের উপকূলে সমুদ্র আর বালুর
+            বিস্তার" data-i18n-alt="altCoast" loading="lazy"></a>
+        <div class="coast-overlay"></div>
+        <div class="coast-content">
+          <p class="eyebrow light" data-i18n="coastEyebrow">নোনা বাতাসের ডাক • ০২</p>
+          <h2 data-i18n="coastTitle">সমুদ্র যেখানে<br>দিগন্ত ছুঁয়ে যায়</h2>
+          <p data-i18n="coastText">কক্সবাজারের দীর্ঘ বালুকাবেলা থেকে টেকনাফের পাহাড়ি উপকূল, সেন্ট মার্টিনের প্রবালদ্বীপ
+            থেকে কুয়াকাটার সূর্যোদয়-সূর্যাস্ত—বাংলাদেশের সমুদ্রতটে আছে নানা রকম ছন্দ।</p>
+          <p data-i18n="coastText2">ভোরের হাঁটা, জেলেদের নৌকা আর সদ্য ধরা সামুদ্রিক মাছ উপকূলের অভিজ্ঞতাকে করে আপন।
+            দ্বীপ ও প্রবালপ্রাচীর ভ্রমণের আগে মৌসুমি আবহাওয়া, নৌযান চলাচল ও স্থানীয় সংরক্ষণ নির্দেশনা জেনে নিন।</p>
+          <a class="button button-light" href="#seasons"><span data-i18n="coastCta">ভ্রমণের সঠিক সময় জানুন</span><span
+              aria-hidden="true">↗</span></a>
+        </div>
+        <span class="coast-coordinate">21°25' N&nbsp; 91°59' E</span>
+      </div>
+    </section>
+
+    <section class="highland-section section-pad" id="highlands">
+      <div class="wrap split-grid">
+        <div class="split-copy reveal">
+          <p class="eyebrow" data-i18n="hillEyebrow">পাহাড়ের দিনলিপি • ০৩</p>
+          <h2 data-i18n="hillTitle">মেঘের কাছাকাছি<br><em>চট্টগ্রাম পার্বত্য অঞ্চল</em></h2>
+          <p data-i18n="hillText">রাঙামাটি, খাগড়াছড়ি ও বান্দরবানের পাহাড়, হ্রদ ও বন বাংলাদেশের ভূদৃশ্যে এক স্বতন্ত্র
+            মাত্রা যোগ করে। কাপ্তাই হ্রদের নীল জল, সাজেকের মেঘঢাকা দিগন্ত আর নীলগিরির পাহাড়ি পথ প্রতিটি ভ্রমণকে আলাদা
+            করে তোলে।</p>
+          <p data-i18n="hillText2">এ অঞ্চল বহু আদিবাসী ও ক্ষুদ্র নৃগোষ্ঠীর আবাস; তাদের ভাষা, বুনন, খাবার ও জীবনযাত্রা এই
+            পাহাড়ি ভূগোলের অবিচ্ছেদ্য অংশ। স্থানীয় রীতিনীতি সম্মান করুন, অনুমতি ছাড়া মানুষের ছবি তুলবেন না এবং
+            যাত্রার আগে প্রবেশ-নির্দেশনা যাচাই করুন।</p>
+          <div class="small-pills"><span data-i18n="hillPill1">কাপ্তাই হ্রদ</span><span data-i18n="hillPill2">সাজেক
+              উপত্যকা</span><span data-i18n="hillPill3">বান্দরবান</span></div>
+        </div>
+        <div class="split-image reveal"><a class="photo-link" href="#home"><img src="images/images (6).jpg"
+              alt="পাহাড়ি সবুজ উপত্যকার দৃশ্য" data-i18n-alt="altHighlands" loading="lazy"></a>
+          <div class="vertical-note"><span data-i18n="hillImageNote">পাহাড়ে ধীরে হাঁটুন</span><span
+              class="note-stem"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="river-section section-pad">
+      <div class="wrap river-grid">
+        <div class="river-image reveal"><a class="photo-link" href="#home"><img src="images/images (7).jpg"
+              alt="নদীর ঘাটে নৌকা ও সবুজ জনপদ" data-i18n-alt="altRiver" loading="lazy"></a><span class="river-stamp"
+            data-i18n="riverStamp">জল • জীবন • জনপদ</span></div>
+        <div class="river-copy reveal">
+          <p class="eyebrow" data-i18n="riverEyebrow">জলের দেশ • ০৪</p>
+          <h2 data-i18n="riverTitle">নদীই এখানে<br><em>জীবনের চলার পথ</em></h2>
+          <p data-i18n="riverText">গঙ্গা-পদ্মা, যমুনা, মেঘনা ও তাদের অগণিত শাখানদী মিলে বাংলাদেশের ভূপ্রকৃতি ও মানুষের
+            জীবন গড়ে তুলেছে। নদী শুধু যাতায়াতের পথ নয়—এটি কৃষি, মাছ, গান, লোককথা ও জীবিকারও উৎস।</p>
+          <p data-i18n="riverText2">বরিশালের খাল, চাঁদপুরের মোহনা কিংবা ভাটিয়ালি গানের সুরে নদীর সঙ্গে মানুষের সম্পর্ক
+            ধরা পড়ে। নৌভ্রমণে স্থানীয় মাঝির সঙ্গে চলুন, লাইফজ্যাকেট ব্যবহার করুন এবং নদীর পাড়ে বর্জ্য না ফেলে জলকে
+            পরিচ্ছন্ন রাখুন।</p>
+          <div class="river-callout"><span class="callout-quote">“</span><span data-i18n="riverQuote">নদী বদলায় পথ,
+              রেখে যায় মানুষের গল্প।</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="heritage-section section-pad" id="heritage">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="heritageEyebrow">সময়ের স্তরে স্তরে</p>
+            <h2 data-i18n="heritageTitle">ইতিহাসের ছোঁয়া</h2>
+          </div>
+          <p data-i18n="heritageIntro">প্রাচীন বৌদ্ধ বিহার, সুলতানি মসজিদ, মুঘল দুর্গ আর ঔপনিবেশিক স্থাপনা—বাংলার ইতিহাস
+            ছড়িয়ে আছে দেশজুড়ে।</p>
+        </div>
+        <div class="heritage-grid">
+          <article class="heritage-card reveal"><span class="heritage-number" data-i18n="heritagePlace1">01 /
+              উত্তর</span>
+            <h3 data-i18n="heritagePaharpur">পাহাড়পুর</h3>
+            <p data-i18n="heritagePaharpurText">সোমপুর মহাবিহারের বিশাল ইটের স্থাপনা প্রাচীন বাংলার বৌদ্ধ শিক্ষা ও
+              শিল্পকলার এক অসামান্য নিদর্শন। দেয়ালের পোড়ামাটির ফলকে খুঁজে পাওয়া যায় সমৃদ্ধ অতীতের ছাপ।</p><span
+              class="heritage-meta" data-i18n="heritageEra1">UNESCO · ৮ম শতক</span>
+          </article>
+          <article class="heritage-card reveal"><span class="heritage-number" data-i18n="heritagePlace2">02 /
+              দক্ষিণ-পশ্চিম</span>
+            <h3 data-i18n="heritageBagerhat">বাগেরহাটের মসজিদ নগরী</h3>
+            <p data-i18n="heritageBagerhatText">খান জাহান আলীর নির্মিত ষাট গম্বুজ মসজিদ ও আশপাশের স্থাপনা পনেরো শতকের
+              নগর পরিকল্পনা, ইটের কারুকাজ এবং আঞ্চলিক ইতিহাসের সাক্ষ্য বহন করে।</p><span class="heritage-meta"
+              data-i18n="heritageEra2">UNESCO · ১৫শ শতক</span>
+          </article>
+          <article class="heritage-card reveal"><span class="heritage-number" data-i18n="heritagePlace3">03 /
+              ঢাকা</span>
+            <h3 data-i18n="heritageLalbagh">লালবাগ কেল্লা</h3>
+            <p data-i18n="heritageLalbaghText">পুরান ঢাকার মুঘল দুর্গ কমপ্লেক্সে লালবাগ কেল্লা, পরীবিবির সমাধি ও সুবিশাল
+              বাগান একসঙ্গে দাঁড়িয়ে আছে। অসমাপ্ত নির্মাণের মধ্যেও মুঘল স্থাপত্যের আভিজাত্য স্পষ্ট।</p><span
+              class="heritage-meta" data-i18n="heritageEra3">মুঘল স্থাপত্য · ১৭শ শতক</span>
+          </article>
+          <article class="heritage-card reveal"><span class="heritage-number" data-i18n="heritagePlace4">04 /
+              পশ্চিম</span>
+            <h3 data-i18n="heritageMosque">বাঘা মসজিদ</h3>
+            <p data-i18n="heritageMosqueText">রাজশাহীর বাঘা মসজিদ সুলতানি বাংলার অলংকৃত পোড়ামাটির শিল্পের অনন্য উদাহরণ।
+              এর খিলান, গম্বুজ ও ফলকে স্থানীয় কারিগরির সূক্ষ্মতা খুঁজে পাওয়া যায়।</p><span class="heritage-meta"
+              data-i18n="heritageEra4">সুলতানি ঐতিহ্য · ১৬শ শতক</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="culture-section section-pad" id="culture">
+      <div class="wrap culture-grid">
+        <div class="culture-lead reveal">
+          <p class="eyebrow light" data-i18n="cultureEyebrow">মানুষের উৎসব</p>
+          <h2 data-i18n="cultureTitle">উৎসবেই বাংলার<br><em>সব রং এক হয়</em></h2>
+          <p data-i18n="cultureText">বাংলার সংস্কৃতি বহু ধারার মিলন। গান, কবিতা, মেলা, নকশা আর ঋতু-উৎসব মানুষকে এক
+            সুতোয় বেঁধে রাখে—শহরে ও গ্রামে, প্রজন্ম থেকে প্রজন্মে।</p><a class="text-link light-link"
+            href="#craft"><span data-i18n="cultureLink">শিল্প ও কারুশিল্প দেখুন</span><span
+              aria-hidden="true">↗</span></a>
+        </div>
+        <div class="festival-list">
+          <article class="festival-item reveal"><span class="festival-date" data-i18n="festivalDate1">বৈশাখ</span>
+            <div>
+              <h3 data-i18n="festivalBoishakh">পহেলা বৈশাখ</h3>
+              <p data-i18n="festivalBoishakhText">বাংলা নববর্ষে রঙিন শোভাযাত্রা, গান, হালখাতা ও ঐতিহ্যবাহী খাবারে জেগে
+                ওঠে নতুন বছরের আনন্দ।</p>
+            </div><span class="festival-mark">✳</span>
+          </article>
+          <article class="festival-item reveal"><span class="festival-date" data-i18n="festivalDate2">শীত</span>
+            <div>
+              <h3 data-i18n="festivalNabanna">নবান্ন</h3>
+              <p data-i18n="festivalNabannaText">নতুন ধান ঘরে তোলার পর পিঠা, পায়েস ও ভাগাভাগি করে খাওয়ার আনন্দে
+                গ্রামবাংলা উদযাপন করে ফসলের উৎসব।</p>
+            </div><span class="festival-mark">✳</span>
+          </article>
+          <article class="festival-item reveal"><span class="festival-date" data-i18n="festivalDate3">বসন্ত</span>
+            <div>
+              <h3 data-i18n="festivalSpring">বসন্ত ও বসন্তবরণ</h3>
+              <p data-i18n="festivalSpringText">ফাল্গুনের হলুদ-লাল রং, ফুল, গান ও কবিতায় বসন্তকে স্বাগত জানায় নানা
+                বয়সের মানুষ।</p>
+            </div><span class="festival-mark">✳</span>
+          </article>
+          <article class="festival-item reveal"><span class="festival-date" data-i18n="festivalDate4">সারা বছর</span>
+            <div>
+              <h3 data-i18n="festivalMusic">লোকগান ও মেলা</h3>
+              <p data-i18n="festivalMusicText">বাউল, ভাটিয়ালি, জারি ও সারি গানের সুর মেলা ও নদীপথে বাংলার জীবন, প্রেম ও
+                বিশ্বাসের কথা বলে।</p>
+            </div><span class="festival-mark">✳</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="food-section section-pad" id="taste">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="foodEyebrow">প্রতিটি অঞ্চলের আলাদা স্বাদ</p>
+            <h2 data-i18n="foodTitle">বাংলার রান্নাঘর</h2>
+          </div>
+          <p data-i18n="foodIntro">ভাত ও নদীর মাছের চেনা স্বাদ থেকে মসলার সুগন্ধি বিরিয়ানি, শীতের পিঠা কিংবা চায়ের
+            আড্ডা—খাবারও এ দেশের গল্প বলে।</p>
+        </div>
+        <div class="food-grid">
+          <article class="food-card food-feature reveal">
+            <div class="food-art food-art-rice"><span>01</span></div>
+            <div><small data-i18n="foodTagRice">ঘরের খাবার</small>
+              <h3 data-i18n="foodRice">ভাত, মাছ ও ভর্তা</h3>
+              <p data-i18n="foodRiceText">ভাতের সঙ্গে সরষে ইলিশ, ডাল আর নানা রকম ভর্তা—স্থানীয় উপকরণ ও মৌসুমি রান্নার
+                পরিচিত স্বাদ। নদী ও উপকূলে মাছের পদে অঞ্চলভেদে বদলে যায় মসলা ও রান্নার ধরন।</p>
+            </div>
+          </article>
+          <article class="food-card reveal">
+            <div class="food-art food-art-biryani"><span>02</span></div>
+            <div><small data-i18n="foodTagBiryani">ঢাকা ও উৎসব</small>
+              <h3 data-i18n="foodBiryani">কাচ্চি বিরিয়ানি</h3>
+              <p data-i18n="foodBiryaniText">সুগন্ধি চাল, মাংস ও মসলার ধীর রান্নায় তৈরি এই জনপ্রিয় নগর-খাবার বিশেষ
+                দিনকে করে তোলে আরও আনন্দময়।</p>
+            </div>
+          </article>
+          <article class="food-card reveal">
+            <div class="food-art food-art-pitha"><span>03</span></div>
+            <div><small data-i18n="foodTagPitha">শীতের পিঠা</small>
+              <h3 data-i18n="foodPitha">ভাপা পিঠা ও পায়েস</h3>
+              <p data-i18n="foodPithaText">নতুন চালের গুঁড়ো, নারকেল ও খেজুরের গুড় দিয়ে তৈরি পিঠা শীতের সকালে ঘরে ঘরে
+                ভাগ করে খাওয়া হয়।</p>
+            </div>
+          </article>
+          <article class="food-card reveal">
+            <div class="food-art food-art-sweets"><span>04</span></div>
+            <div><small data-i18n="foodTagSweet">মিষ্টির ঐতিহ্য</small>
+              <h3 data-i18n="foodSweet">রসগোল্লা ও মিষ্টি দই</h3>
+              <p data-i18n="foodSweetText">ছানা, দুধ ও গুড়ের মিষ্টিতে আছে অঞ্চলভেদে নিজস্ব স্বাদ। স্থানীয় মিষ্টির
+                দোকানে নতুন কিছু চেখে দেখা ভ্রমণের মধুর অংশ।</p>
+            </div>
+          </article>
+        </div>
+        <p class="food-note" data-i18n="foodNote">নিরামিষ, অ্যালার্জি বা খাদ্যাভ্যাসের প্রয়োজন থাকলে অর্ডারের আগে উপকরণ
+          জেনে নিন।</p>
+      </div>
+    </section>
+
+    <section class="craft-section section-pad" id="craft">
+      <div class="wrap craft-grid">
+        <div class="craft-image reveal"><a class="photo-link" href="#home"><img src="images/images (8).jpg"
+              alt="বাংলার তাঁতের কাপড় ও কারুশিল্প" data-i18n-alt="altHandloom" loading="lazy"></a><span
+            class="craft-seal" data-i18n="craftSeal">হাতে<br>বোনা</span></div>
+        <div class="craft-copy reveal">
+          <p class="eyebrow" data-i18n="craftEyebrow">মাটির হাতে, মানুষের মনে</p>
+          <h2 data-i18n="craftTitle">কারুশিল্পে বেঁচে<br><em>থাকে আমাদের শিকড়</em></h2>
+          <p data-i18n="craftText">জামদানি তাঁতের সূক্ষ্ম নকশা, নকশিকাঁথার সেলাই, মৃৎশিল্পের মাটির গন্ধ, বাঁশ-বেতের
+            ব্যবহারিক বুনন—বাংলার কারুশিল্পে প্রকৃতি, স্মৃতি আর দক্ষ হাতের ছাপ একসঙ্গে মিশে আছে।</p>
+          <p data-i18n="craftText2">স্থানীয় কারিগর ও ন্যায্য-মূল্যের দোকান থেকে সরাসরি পণ্য কিনলে ঐতিহ্যবাহী পেশাকে
+            টিকে থাকতে সহায়তা হয়। প্রতিটি বুনন ও নকশার পেছনে আছে দীর্ঘ অনুশীলন আর প্রজন্মের জ্ঞান।</p>
+          <div class="craft-tags"><span data-i18n="craftTagJamdani">জামদানি</span><span
+              data-i18n="craftTagKantha">নকশিকাঁথা</span><span data-i18n="craftTagPottery">মৃৎশিল্প</span><span
+              data-i18n="craftTagBamboo">বাঁশ ও বেত</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wildlife-section section-pad" id="wildlife">
+      <div class="wrap wildlife-panel reveal">
+        <a class="wildlife-photo-link" href="#home" aria-label="বন্যপ্রাণীর ছবি থেকে হিরো বিভাগে যান"
+          data-i18n-aria="wildlifePhotoLink"><img src="images/images (9).jpg"
+            alt="বাংলাদেশের বন্যপ্রকৃতিতে পাখির উপস্থিতি" data-i18n-alt="altWildlife" loading="lazy"></a>
+        <div class="wildlife-copy">
+          <p class="eyebrow light" data-i18n="wildlifeEyebrow">বন্যপ্রকৃতির পাশে</p>
+          <h2 data-i18n="wildlifeTitle">বৈচিত্র্যই<br>বাংলার প্রাণ</h2>
+          <p data-i18n="wildlifeText">সুন্দরবনের বাঘ, জলাভূমির পাখি, নদীর ডলফিন, পাহাড়ের হাতি—বাংলাদেশের বন, নদী ও
+            উপকূল বহু বন্যপ্রাণীর আবাস। টাঙ্গুয়ার হাওর ও হাকালুকি হাওরের মতো জলাভূমি পরিযায়ী পাখির জন্য গুরুত্বপূর্ণ
+            আশ্রয়।</p>
+          <p data-i18n="wildlifeText2">প্রকৃতি দেখুন নীরবে ও নিরাপদ দূরত্ব থেকে। বন্যপ্রাণীকে খাবার দেবেন না, বাসা বা
+            আবাসস্থল বিরক্ত করবেন না এবং বর্জ্য সঙ্গে ফিরিয়ে আনুন। সংরক্ষিত এলাকায় স্থানীয় গাইডের নির্দেশনা মেনে
+            চলুন।</p><a class="text-link light-link" href="#responsible"><span data-i18n="wildlifeLink">প্রকৃতির বন্ধু
+              হয়ে ভ্রমণ করুন</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tea-section section-pad" id="tea">
+      <div class="wrap tea-grid">
+        <div class="tea-copy reveal">
+          <p class="eyebrow" data-i18n="teaEyebrow">সিলেটের সবুজ সকাল</p>
+          <h2 data-i18n="teaTitle">চা-বাগানে<br><em>সময়ের ধীর পদচারণা</em></h2>
+          <p data-i18n="teaText">শ্রীমঙ্গল ও সিলেটের ঢেউখেলানো চা-বাগান, বৃষ্টিভেজা পথ ও ছোট টিলায় আছে প্রশান্তির আলাদা
+            ছন্দ। দূর থেকে দেখা সবুজ সারির পেছনে রয়েছে বাগানশ্রমিকদের পরিশ্রম ও বহু প্রজন্মের ইতিহাস।</p>
+          <p data-i18n="teaText2">অনুমতি নিয়ে বাগানের নির্দিষ্ট পথে হাঁটুন, শ্রমিকদের কাজে বাধা দেবেন না এবং স্থানীয়
+            চা ও সাতরঙা চায়ের গল্প শুনুন। কাছেই লাউয়াছড়া জাতীয় উদ্যানের বনে বিরল পাখি ও প্রাণীর দেখা মেলে।</p>
+          <div class="tea-highlight"><strong>03</strong><span data-i18n="teaHighlight">এক কাপ চা,<br>অফুরন্ত
+              সবুজ</span><span class="highlight-line"></span></div>
+        </div>
+        <div class="tea-photo reveal"><a class="photo-link" href="#home"><img src="images/images (10).jpg"
+              alt="শ্রীমঙ্গলের ঢেউখেলানো চা-বাগান" data-i18n-alt="altTea" loading="lazy"></a>
+          <div class="tea-caption"><span data-i18n="teaCaption">শ্রীমঙ্গল, সিলেট</span><span>24°18' N</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="people-section section-pad">
+      <div class="wrap people-grid">
+        <div class="people-photo reveal"><a class="photo-link" href="#home"><img src="images/images (11).jpg"
+              alt="বাংলাদেশের গ্রামীণ জনপদের সবুজ ও সরল জীবন" data-i18n-alt="altVillage" loading="lazy"></a><span
+            class="people-photo-note" data-i18n="peoplePhotoNote">একটি উঠোন, হাজার গল্প</span></div>
+        <div class="people-copy reveal">
+          <p class="eyebrow" data-i18n="peopleEyebrow">বাংলাদেশের হৃদস্পন্দন</p>
+          <h2 data-i18n="peopleTitle">মানুষের কাছেই<br><em>ভ্রমণের আসল মানে</em></h2>
+          <p data-i18n="peopleText">হাটের সকালের ব্যস্ততা, গ্রামের উঠোনে চায়ের আমন্ত্রণ, নৌকার মাঝির গান, শহরের
+            রিকশাচিত্র—বাংলাদেশের দৈনন্দিন জীবন ছোট ছোট দৃশ্যেই নিজের পরিচয় দেয়।</p>
+          <p data-i18n="peopleText2">অতিথিকে আপন করে নেওয়ার সহজ স্বভাব এই দেশের ভ্রমণকে স্মরণীয় করে। স্থানীয়দের সঙ্গে
+            কথা বলুন, অনুমতি নিয়ে ছবি তুলুন, শালীন পোশাক ও আচরণ বজায় রাখুন এবং তাদের সময় ও জীবিকার প্রতি সম্মান
+            দেখান।</p><a class="text-link" href="#culture"><span data-i18n="peopleLink">মানুষ ও সংস্কৃতির আরও
+              গল্প</span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="season-section section-pad" id="seasons">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="seasonEyebrow">ঋতু বদলায়, বাংলাদেশও</p>
+            <h2 data-i18n="seasonTitle">কখন যাবেন?</h2>
+          </div>
+          <p data-i18n="seasonIntro">প্রতিটি ঋতুর আলাদা রং ও ভ্রমণ-অভিজ্ঞতা আছে। আপনার পছন্দের দৃশ্য ও গন্তব্য অনুযায়ী
+            সময় বেছে নিন।</p>
+        </div>
+        <div class="season-grid">
+          <article class="season-card reveal"><span class="season-icon">01</span><small
+              data-i18n="seasonWinterLabel">নভেম্বর—ফেব্রুয়ারি</small>
+            <h3 data-i18n="seasonWinter">শীত • আরামদায়ক ভ্রমণ</h3>
+            <p data-i18n="seasonWinterText">তুলনামূলক শুষ্ক ও আরামদায়ক আবহাওয়ায় ঐতিহাসিক স্থান, শহর, উপকূল ও গ্রাম
+              ভ্রমণের জনপ্রিয় সময়। শীতের পিঠা ও পাখি দেখার জন্যও উপযুক্ত।</p>
+          </article>
+          <article class="season-card reveal"><span class="season-icon">02</span><small
+              data-i18n="seasonSpringLabel">ফেব্রুয়ারি—মার্চ</small>
+            <h3 data-i18n="seasonSpring">বসন্ত • উৎসবের রং</h3>
+            <p data-i18n="seasonSpringText">ফুল, উৎসব ও মৃদু উষ্ণতার সময়। শহরের সাংস্কৃতিক অনুষ্ঠান ও চা-বাগানের সবুজ
+              পথে বেড়ানোর জন্য সুন্দর ঋতু।</p>
+          </article>
+          <article class="season-card reveal"><span class="season-icon">03</span><small
+              data-i18n="seasonMonsoonLabel">জুন—সেপ্টেম্বর</small>
+            <h3 data-i18n="seasonMonsoon">বর্ষা • জলের দেশ</h3>
+            <p data-i18n="seasonMonsoonText">নদী ও জলাভূমি পূর্ণ হয়, চারপাশে সবুজের বিস্তার। তবে বৃষ্টি, বন্যা বা
+              ভূমিধসের ঝুঁকি থাকে—যাত্রার আগে আবহাওয়া ও স্থানীয় পরামর্শ যাচাই করুন।</p>
+          </article>
+          <article class="season-card reveal"><span class="season-icon">04</span><small
+              data-i18n="seasonAutumnLabel">অক্টোবর—নভেম্বর</small>
+            <h3 data-i18n="seasonAutumn">শরৎ • নীল আকাশ</h3>
+            <p data-i18n="seasonAutumnText">মেঘ সরে গেলে আকাশ হয় স্বচ্ছ, বাতাসে আসে উৎসবের আমেজ। নদী, গ্রাম ও ঐতিহাসিক
+              স্থাপনা ঘুরে দেখার স্নিগ্ধ সময়।</p>
+          </article>
+        </div>
+        <p class="season-disclaimer" data-i18n="seasonDisclaimer">আবহাওয়া বছরভেদে পরিবর্তিত হতে পারে। পাহাড়, সমুদ্র ও
+          দ্বীপযাত্রার আগে সর্বশেষ স্থানীয় নির্দেশনা জেনে নিন।</p>
+      </div>
+    </section>
+
+    <section class="guide-section section-pad" id="plan">
+      <div class="wrap guide-grid">
+        <div class="guide-heading reveal">
+          <p class="eyebrow" data-i18n="guideEyebrow">সহজ প্রস্তুতি, সুন্দর যাত্রা</p>
+          <h2 data-i18n="guideTitle">ভ্রমণের আগে<br><em>যা জেনে নেবেন</em></h2>
+          <p data-i18n="guideIntro">গন্তব্যের ধরন অনুযায়ী পরিকল্পনা করুন। স্থানীয় নিয়মকে সম্মান করলে আপনার অভিজ্ঞতাও
+            হবে স্বচ্ছন্দ, দায়িত্বশীল ও আনন্দময়।</p>
+        </div>
+        <div class="guide-list">
+          <article class="guide-item reveal"><span>01</span>
+            <div>
+              <h3 data-i18n="guideTransport">যাতায়াত ও দূরত্ব</h3>
+              <p data-i18n="guideTransportText">ঢাকা থেকে আন্তঃনগর ট্রেন, বাস ও অভ্যন্তরীণ ফ্লাইটে বিভিন্ন অঞ্চলে যাওয়া
+                যায়। সড়ক ও নদীপথে সময় বেশি লাগতে পারে; ছুটির দিনে টিকিট আগেভাগে বুক করুন।</p>
+            </div>
+          </article>
+          <article class="guide-item reveal"><span>02</span>
+            <div>
+              <h3 data-i18n="guideClimate">আবহাওয়া ও পোশাক</h3>
+              <p data-i18n="guideClimateText">গরম ও আর্দ্র আবহাওয়ার জন্য হালকা পোশাক, পানির বোতল, সানস্ক্রিন ও বৃষ্টির
+                সময় ছাতা রাখুন। ধর্মীয় স্থান ও গ্রামে শালীন পোশাক বেছে নিন।</p>
+            </div>
+          </article>
+          <article class="guide-item reveal"><span>03</span>
+            <div>
+              <h3 data-i18n="guideSafety">নিরাপত্তা ও স্থানীয় তথ্য</h3>
+              <p data-i18n="guideSafetyText">ভ্রমণের আগে সরকারি ভ্রমণ-পরামর্শ, স্থানীয় প্রবেশনীতি ও আবহাওয়ার খবর
+                দেখুন। পাহাড়ি ও সীমান্তবর্তী এলাকায় অনুমতি বা গাইডের প্রয়োজন হতে পারে।</p>
+            </div>
+          </article>
+          <article class="guide-item reveal"><span>04</span>
+            <div>
+              <h3 data-i18n="guideMoney">অর্থ ও যোগাযোগ</h3>
+              <p data-i18n="guideMoneyText">স্থানীয় মুদ্রা বাংলাদেশি টাকা। শহরের বাইরে নগদ অর্থ সঙ্গে রাখুন; মোবাইল
+                নেটওয়ার্ক ও কার্ড পেমেন্ট সব জায়গায় সমানভাবে নাও মিলতে পারে।</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="itinerary-section section-pad">
+      <div class="wrap">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="itineraryEyebrow">একটি অনুপ্রেরণামূলক পথ</p>
+            <h2 data-i18n="itineraryTitle">সাত দিনে বাংলাদেশের ছোঁয়া</h2>
+          </div>
+          <p data-i18n="itineraryIntro">এটি একটি নমনীয় ধারণা—দূরত্ব, আবহাওয়া ও আপনার আগ্রহ অনুযায়ী দিন বাড়ান বা
+            কমান।</p>
+        </div>
+        <div class="itinerary-track">
+          <article class="itinerary-stop reveal"><span data-i18n="itineraryDays1">দিন ০১—০২</span>
+            <h3 data-i18n="itineraryDhaka">ঢাকা ও ইতিহাস</h3>
+            <p data-i18n="itineraryDhakaText">পুরান ঢাকা, লালবাগ কেল্লা, জাতীয় জাদুঘর ও নদীর ঘাট দিয়ে শহরের ইতিহাস ও
+              জীবনযাত্রার পরিচয় নিন।</p>
+          </article>
+          <article class="itinerary-stop reveal"><span data-i18n="itineraryDays2">দিন ০৩—০৪</span>
+            <h3 data-i18n="itinerarySylhet">সিলেটের সবুজ</h3>
+            <p data-i18n="itinerarySylhetText">শ্রীমঙ্গলের চা-বাগান, লাউয়াছড়া বন ও সিলেটের নদী-ঝরনার পথে প্রকৃতির
+              বৈচিত্র্য দেখুন।</p>
+          </article>
+          <article class="itinerary-stop reveal"><span data-i18n="itineraryDays3">দিন ০৫—০৭</span>
+            <h3 data-i18n="itineraryCoast">উপকূলের দিন</h3>
+            <p data-i18n="itineraryCoastText">কক্সবাজারে সমুদ্রের সময় কাটান; আবহাওয়া ও চলাচলের নিয়ম মিললে কাছের দ্বীপ
+              বা উপকূলীয় গ্রাম ঘুরে দেখুন।</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="responsible-section section-pad" id="responsible">
+      <div class="wrap responsible-grid">
+        <div class="responsible-copy reveal">
+          <p class="eyebrow" data-i18n="responsibleEyebrow">যত্ন নিয়ে দেখুন, যত্নে রাখুন</p>
+          <h2 data-i18n="responsibleTitle">ভালো ভ্রমণ<br><em>ভালো ছাপ রেখে যায়</em></h2>
+          <p data-i18n="responsibleText">প্রাকৃতিক ও ঐতিহাসিক সম্পদ সবার। আপনার ছোট সিদ্ধান্ত স্থানীয় পরিবেশ, জীবিকা ও
+            ঐতিহ্যকে সম্মান জানাতে পারে।</p>
+        </div>
+        <div class="responsible-tips">
+          <div class="responsible-tip reveal"><span>01</span>
+            <p data-i18n="tipWaste">একবার ব্যবহারযোগ্য প্লাস্টিক কমান, নিজের বর্জ্য সঙ্গে ফিরিয়ে আনুন।</p>
+          </div>
+          <div class="responsible-tip reveal"><span>02</span>
+            <p data-i18n="tipLocal">স্থানীয় গাইড, খাবার ও কারুশিল্প বেছে নিয়ে এলাকার অর্থনীতিতে অবদান রাখুন।</p>
+          </div>
+          <div class="responsible-tip reveal"><span>03</span>
+            <p data-i18n="tipWildlife">প্রাণী, বন ও প্রবালকে দূর থেকে দেখুন; কোনো কিছু সংগ্রহ বা খাওয়াবেন না।</p>
+          </div>
+          <div class="responsible-tip reveal"><span>04</span>
+            <p data-i18n="tipRespect">ছবি তোলার আগে অনুমতি নিন, স্থানীয় সংস্কৃতি ও ধর্মীয় রীতিকে সম্মান করুন।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section" id="journey">
+      <div class="closing-image"></div>
+      <div class="closing-overlay"></div><a class="closing-photo-link" href="#home"
+        aria-label="হিরো বিভাগে যেতে ছবিতে ক্লিক করুন" data-i18n-aria="heroPhotoLink"></a>
+      <div class="closing-content wrap reveal">
+        <p class="eyebrow light" data-i18n="closingEyebrow">একটি দেশ, অসংখ্য অনুভব</p>
+        <h2 data-i18n="closingTitle">বাংলাদেশ আপনাকে<br><em>নিজের মতো করে ডাকছে</em></h2>
+        <p data-i18n="closingText">একটি নদীর ধারে থামুন। একটি গল্প শুনুন। নতুন কোনো পথ ধরে এগিয়ে যান। আপনার পরের
+          স্মৃতিটি হয়তো এখানেই অপেক্ষা করছে।</p><a class="button button-light" href="#home"><span
+            data-i18n="closingCta">আবার শুরু থেকে দেখুন</span><span aria-hidden="true">↑</span></a>
+      </div>
+      <span class="closing-script" aria-hidden="true" data-i18n="closingScript">আবার আসবেন</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-main">
+      <div class="footer-brand"> <a class="brand" href="#home" aria-label="সৌন্দর্যের বাংলাদেশ"
+          data-i18n-aria="brandBn"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 42 42" fill="none">
+              <path d="M5 29c7-8 12-8 19 0s12 8 19 0M5 20c7-8 12-8 19 0s12 8 19 0M5 11c7-8 12-8 19 0s12 8 19 0"
+                stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+              <circle cx="21" cy="21" r="19.5" stroke="currentColor" />
+            </svg></span><span class="brand-copy"><strong data-i18n="brandBn">সৌন্দর্যের
+              বাংলাদেশ</strong><small>BEAUTIFUL BANGLADESH</small></span></a>
+        <p data-i18n="footerText">প্রকৃতি, ঐতিহ্য আর মানুষের গল্পে—বাংলাদেশকে নতুন করে চিনুন।</p>
+      </div>
+      <div class="footer-links"><strong data-i18n="footerExplore">ঘুরে দেখুন</strong><a href="#discover"
+          data-i18n="navDiscover">আবিষ্কার</a><a href="#nature" data-i18n="navNature">প্রকৃতি</a><a href="#heritage"
+          data-i18n="navHeritage">ঐতিহ্য</a></div>
+      <div class="footer-links"><strong data-i18n="footerPlan">পরিকল্পনা</strong><a href="#seasons"
+          data-i18n="navSeason">ঋতু</a><a href="#plan" data-i18n="navPlan">ভ্রমণ নির্দেশিকা</a><a href="#responsible"
+          data-i18n="footerResponsible">দায়িত্বশীল ভ্রমণ</a></div>
+      <a class="back-top" href="#top" aria-label="পাতার শুরুতে যান" data-i18n-aria="backTopLabel">↑<span
+          data-i18n="backTop">শুরুতে ফিরুন</span></a>
+    </div>
+    <details class="photo-credits wrap">
+      <summary data-i18n="photoCredits">ছবির স্বত্ব ও কৃতজ্ঞতা</summary>
+      <p data-i18n="photoCreditsInfo">ছবিগুলো Wikimedia Commons থেকে নেওয়া। প্রতিটি ছবির আলোকচিত্রী ও মূল উৎসের লিংক
+        দেওয়া আছে; প্রযোজ্য <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+          rel="noreferrer">CC BY-SA 4.0</a> বা <a href="https://creativecommons.org/publicdomain/zero/1.0/"
+          target="_blank" rel="noreferrer">CC0</a> লাইসেন্সও উল্লেখ করা হয়েছে।</p>
+      <ul>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Beautiful_Kishoreganj.jpg" target="_blank"
+            rel="noreferrer">Beautiful Kishoreganj — Evanahmed75 · CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:A_Boat_going_on_outside_of_Village.jpg" target="_blank"
+            rel="noreferrer">A Boat going on outside of Village — Salmancse96 · CC0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Da_used_by_the_beekeepers_of_the_Sundarbans_-_DSC00286.jpg"
+            target="_blank" rel="noreferrer">Sundarbans beekeepers — ROCKY · CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:At_the_beach_of_Cox%27s_Bazar_02.jpg" target="_blank"
+            rel="noreferrer">Cox's Bazar beach — Kritzolina · CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Helipad,_Sajek_Valley_06.jpg" target="_blank"
+            rel="noreferrer">Sajek Valley — Masum-al-Hasan Rocky · CC BY-SA 4.0</a></li>
+        <li><a
+            href="https://commons.wikimedia.org/wiki/File:Mass_tea_crossing_facility_behind_Bangladesh_Tea_Research_Institute,_Sreemangal,_Moulvibazar.jpg"
+            target="_blank" rel="noreferrer">Sreemangal tea garden — Ifteebd10 · CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Aerial_view_of_Somapura_Mahavihara.jpg" target="_blank"
+            rel="noreferrer">Somapura Mahavihara — Md. Ahsanul Haque Nayem · CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Jamdani_shop_at_BSCIC_Jamdani_palli,_Narayanganj_5.jpg"
+            target="_blank" rel="noreferrer">Jamdani weaving — Wasiul Bahar · CC BY-SA 4.0</a></li>
+        <li><a
+            href="https://commons.wikimedia.org/wiki/File:Crested_serpent_eagle,_Sundarbans_East_Wildlife_Sanctuary.jpg"
+            target="_blank" rel="noreferrer">Crested serpent eagle — Md shahanshah bappy · CC BY-SA 4.0</a></li>
+        <li><a href="https://commons.wikimedia.org/wiki/File:Bangladesh_Village_Landscape_(36143248590).jpg"
+            target="_blank" rel="noreferrer">Bangladesh village landscape — nasir khan · CC BY-SA 2.0</a></li>
+      </ul>
+    </details>
+    <div class="wrap footer-bottom"><span>© <span id="year"></span> <span data-i18n="brandBn">সৌন্দর্যের
+          বাংলাদেশ</span></span><span data-i18n="footerMade">ভালোবাসা দিয়ে সাজানো, বাংলাদেশের জন্য</span><a href="#top"
+        data-i18n="footerLocale">বাংলাদেশ&nbsp; · &nbsp;বাংলা / English</a></div>
+  </footer>
+  <button class="to-top" type="button" aria-label="উপরে যান" data-i18n-aria="scrollUp">↑</button>
+</body>
+
+</html>
